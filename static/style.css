@@ -1,74 +1,59 @@
-/* Body */
 body {
-	font-family: Arial, sans-serif;
-	margin: 0;
-	padding: 0;
-	background-color: #f7f7f7;
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+  margin: 0;
 }
 
-/* Header */
-header {
-	background-color: #2f2f2f;
-	color: #fff;
-	padding: 20px;
-	text-align: center;
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-header h1 {
-	margin: 0;
-	font-size: 32px;
+h1 {
+  text-align: center;
 }
 
-/* Main */
-main {
-	padding: 20px;
-	margin: 20px auto;
-	background-color: #fff;
-	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-	max-width: 800px;
-}
-
-/* Form */
 form {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-
-label {
-	margin-bottom: 10px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 input[type="file"] {
-	padding: 10px;
-	border: 1px solid #ccc;
-	border-radius: 5px;
-	background-color: #fff;
+  margin-bottom: 10px;
+}
+
+select {
+  margin-bottom: 10px;
 }
 
 input[type="submit"] {
-	padding: 10px;
-	border: none;
-	border-radius: 5px;
-	background-color: #2f2f2f;
-	color: #fff;
-	cursor: pointer;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
 }
 
-/* Result */
-.result {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+input[type="submit"]:hover {
+  background-color: #3e8e41;
 }
 
-.result h2 {
-	margin-top: 0;
-	font-size: 28px;
-}
-
-.result img {
-	max-width: 100%;
-	margin-top: 20px;
-	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+img {
+  display: block;
+  margin-top: 20px;
+  max-width: 100%;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
